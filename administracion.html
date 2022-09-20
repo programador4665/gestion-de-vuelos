@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administraci&oacute;</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/imgs/logo.jpg">
+        </div>
+        <div class="sesion">
+            <a href="#"> <span >Usuario_sesion</span> </a>
+        </div>
+    </header>
+        
+    <nav>
+        <ul>
+            <li><a href="#">-</a></li>
+           
+        </ul>
+    </nav>
+    
+    <section>
+        <div class="centro">
+                <h3>Administraci&oacuten</h3> 
+                <table class="admin">
+                    <tr>
+                        <td>
+                            <div class="form_admin_usuario">
+                                <form name="formulario_administracion1" id="formulario_crear_usuario" method="get" action="">
+                                    <p> Crear Usuario</p> 
+                                    <input type="text" name="cedula" id="cedula" size="15" placeholder="Cedula" ><br>
+                                    <input type="text" name="nombre" id="nombre" size="15" placeholder="Nombre" ><br> 
+                                    <input type="text" name="apellido" id="apellido" size="15" placeholder="Apellido"><br>
+                                    <input type="text" name="usuario" id="usuario" size="15" placeholder="Usuario" ><br> 
+                                    <input type="text" name="Contraseña" id="contraseña" size="15" placeholder="Contraseña"><br>
+                                    
+                                    <!-- <input list="Roles" name="Roles" /></label>
+                                    <datalist id="Roles" placeholder="roles">
+                                        <option value="Usuario">
+                                        <option value="Piloto">
+                                        <option value="Administrador">
+                                    </datalist>-->
+                                    <select >
+                                        <option value="">Roles</option>
+                                    </select>
+                                    <br> <br>
+                                    <input type="button" value="Crear Usuario"> <br> <br> 
+                                    <br><br>
+                
+                                </form>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form_admin_vuelo">
+                                <form name="formulario_administracion2" id="formulario_crear_usuario" method="get" action="">
+                                    <p> Planear Vuelos</p> 
+                                    <input type="text" name="codigo" id="codigo" size="15" placeholder="Codigo" ><br> 
+                                    <input type="text" name="avion" id="avion" size="15" placeholder="Avion"><br>
+                                    <input type="text" name="origen" id="origen" size="15" placeholder="Origen" ><br> 
+                                    <input type="text" name="destino" id="destino" size="15" placeholder="Destino"><br>
+                                    <!-- <input list="pilotos" name="Pilotos" /></label>
+                                    <datalist id="pilotos" placeholder="pilotos">
+                                        <option value="uno">
+                                        <option value="">
+                                        <option value="">
+                                    </datalist>-->
+                                    <select >
+                                        <option value="">Pilotos</option>
+                                    </select>
+                                                                        
+                                    <br> <br> <br> 
+                                    <input type="button" value="Registrarse"> <br> <br> <br>
+                                    <br>
+                                </form>
+                        </td>
+                    </tr>
+
+
+                </table>
+                
+
+        </div>
+        
+    </section>
+    
+
+    <footer>
+        <div class="pie">
+            <p>Derechos reservado 2022</p>
+        </div>
+
+    </footer>
+</body>
+</html>

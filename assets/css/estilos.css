@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins Semi';
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+header {
+    background:white;
+}
+
+header .logo, header .sesion {
+    display: inline-block;
+}
+
+header .logo {
+    width: 50%;
+    float: left;
+    margin: 0px 0px 0px 50px;
+}
+
+header .logo img {
+    width: 100px;
+    height: 30 px;
+}
+
+header .sesion{
+    width: 30%;
+    height: 30px ;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    background-color:#EEEEEE;
+    text-align: center ;
+    padding-top: 10px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+nav{
+    width: 100%;
+    float: left;
+    background-color:white;
+    margin-left: 150px;
+}
+
+nav ul{
+    margin-bottom: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+section .centro{
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    background-color: #EEEEEE;
+    height: 420px;
+}
+section .centro img{
+    margin-left: 400px;
+    margin-top: 50px;
+
+}
+
+section .centro h3{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+}
+
+section .centro h3, section .centro .form_inicio, section .centro .vuelo,section .centro .piloto{
+    background-color: white;
+    margin-left: 35%;
+    width: 400px;
+    text-align: center;
+}
+
+
+
+section .centro .vuelo p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+section .centro .piloto .container-table{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+
+}
+
+section .centro .piloto .container-table .table_header{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+section .centro .piloto .container-table .table_title {
+     grid-column-start: 1;
+     grid-column-end: 5;
+     color: white;
+     background-color: rgb(126, 156, 238);
+}
+
+section .centro .admin  {
+    background-color: white;
+    margin-left: 35%;
+    text-align: center;
+    width: 400px;
+}
+
+
+section .centro .admin .form_admin_vuelo, section .centro .admin .form_admin_vuelo {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+section .centro .admin td {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+p{
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+select{
+    padding-left: 0px;
+    margin-left: 0px;
+    
+}
+
+footer .pie{
+    float: left;
+    margin-left: 500px;
+}
+footer .pie p{
+    text-align: center;
+}
+
